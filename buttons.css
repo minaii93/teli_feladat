@@ -1,0 +1,19 @@
+.primary{
+    background-color: var(--button-bg);
+    display: flex;
+    justify-content: center;
+    width: 280px;
+    padding: 19px 35px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    color: var(--button-text);
+    transition: ease-in-out .25s;
+    font-family: Inter;
+}
+
+.primary:hover{
+    background-color: var(--button-text);
+    color: var(--hover-text) !important;
+}
