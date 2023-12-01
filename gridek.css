@@ -1,43 +1,61 @@
 .kontener{
     display: grid;
+    height: 100vh;
     grid-template-columns: 16rem 1fr 16rem;
-    grid-template-rows: auto 1fr auto;
+    grid-template-rows: auto 1.5fr auto;
     grid-template-areas:    
     "header header header"
-    "nav content sidebar"
+    "nav content1 content2"
     "footer footer footer";
     min-height: 80vh;
     
 }
 
-header {
+header{
     grid-area: header;
     padding: 3rem;
-    background-color: white;
     margin-left: 16rem;
     margin-right: 16rem;
     background-image: url(/képek/kepek/fejlec.jpg);
     background-repeat: repeat-x;
     background-position-y: 22%;
+    
 }
+.cim, h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: xx-large;
+    
+    
+}
+
 
 nav {
     grid-area: nav;
-    padding: 2rem;
+    
     background-color: white;
     
 }
 
 
 main{
-    grid-area: content;
+    grid-area: content1;
     padding: 2rem;
-    border: solid 1px black;
+    border: solid 1px rgb(255, 255, 255);
     background-color: white;
 }
+
+
 
 footer{
     grid-area: footer;
     background-color: var(--button-bg);
-    padding: 2rem;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    text-align: center;
+    font-size: 13px;
+    font-weight: semi-bold;
+    
 }
