@@ -4,6 +4,9 @@ body{
 
 }
 
-.white_background{
-    
+.fejlec, h1{
+    background-image: url(/képek/kepek/fejlec.jpg);
+    background-repeat: repeat-x;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
 }

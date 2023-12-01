@@ -1,0 +1,43 @@
+.kontener{
+    display: grid;
+    grid-template-columns: 16rem 1fr 16rem;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:    
+    "header header header"
+    "nav content sidebar"
+    "footer footer footer";
+    min-height: 80vh;
+    
+}
+
+header {
+    grid-area: header;
+    padding: 3rem;
+    background-color: white;
+    margin-left: 16rem;
+    margin-right: 16rem;
+    background-image: url(/képek/kepek/fejlec.jpg);
+    background-repeat: repeat-x;
+    background-position-y: 22%;
+}
+
+nav {
+    grid-area: nav;
+    padding: 2rem;
+    background-color: white;
+    
+}
+
+
+main{
+    grid-area: content;
+    padding: 2rem;
+    border: solid 1px black;
+    background-color: white;
+}
+
+footer{
+    grid-area: footer;
+    background-color: var(--button-bg);
+    padding: 2rem;
+}
