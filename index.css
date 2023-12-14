@@ -1,35 +1,37 @@
 
 
 
-* {
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(64, 64, 64);
-    font-size: 10pt;
-    margin: 0px;
-    padding: 0px;
-}
+
 
 main {
     width: 90%;
     height: 900px;
     margin: auto;
     /* background-color: rgb(red, green, blue); */
-    background-color: rgb(220, 220, 220);
+    background-color: rgb(255, 255, 255);
 }
 
 header {
     background-image: url(/képek/kepek/fejlec.jpg);
-    background-size:contain;
-    background-repeat: repeat;
-    height: 250px;
-    font-size: large;
-    color: white;
+    background-size:30%;
     align-items: center;
+    background-position-y: 20%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+  
+}
+
+header h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    m
+
 }
 
 .primary{
-    background-color: var(--button-bg);
+    background-color: rgb(99, 160, 252);
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
@@ -39,7 +41,7 @@ header {
     border-radius: 10px;
     font-size: 13px;
     text-decoration: none;
-    color: var(--button-text);
+    color: white;
     transition: ease-in-out .25s;
     margin-bottom: 3px;
 }
