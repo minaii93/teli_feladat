@@ -53,18 +53,12 @@ header h1{
 }
 
 
-nav ul {
-        display: grid;
-        grid-template-columns: auto ;
-        width: fit-content;
-        margin:0;
-}
 
 
 nav li{
     text-decoration: none;
     list-style-type: none;
-    padding: 2px;
+   
     
 }
 
@@ -77,34 +71,62 @@ body{
 article {
     font-size: 10px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    padding: 2px;
+    grid-template-columns: 1fr 1.5fr 1fr ;
+    
+    align-items:start;
 }
 
-article img {
-    padding-top: 2px;
-    
-    width: ;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
+.középső_oszlop {
     display: grid;
     grid-template-columns: 1fr 1fr ;
     
+    ;
 }
 
+  
+  div.rotate_right {
+    float: left;
+    transform: rotate(7deg);
+  }
+  
+  div.rotate_left {
+    float: left;
+    transform: rotate(-8deg);
+  }
+
+article img {
+    width: 75%;
+    height: 60%;
+    display: flex;
+    border: solid 1px gray;
+    padding: 10px 10px 25px 10px;
+    margin-top: auto;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    
+}
+
+.szöveg_oszlop{
+    text-align:justify;
+    padding: 20px;
+
+    background-color: white;
+    border: solid 1px gray;
+    
+}
 article p {
-    font-size: 16px;
-    text-align: justify;
+    font-size: 13px;
     color: black !important;
-    padding-block: 20px;
-    padding-right: 16px;
+}
+
+article a{
+    color: purple;
+    font-size: 13px;
 }
 
 article h1 {
-    font-size: 15px;
+    font-size: 20px;
     color: black !important;
-    padding-block: 20px;
 }
 
 footer {
