@@ -118,6 +118,7 @@ table th {
 article p {
     font-size: 13px;
     color: black !important;
+    text-align: left;
 }
 
 article a{
