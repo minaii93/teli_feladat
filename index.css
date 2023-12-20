@@ -30,7 +30,7 @@ header h1{
 }
 
 .primary{
-    background-color: rgb(99, 160, 252);
+    background-color: #13a0ff;
     font-family: Georgia, 'Times New Roman', Times, serif;
     display: flex;
     justify-content: center;
@@ -108,7 +108,7 @@ article h1 {
 }
 
 footer {
-    background-color: rgb(74, 138, 255);
+    background-color: #13a0ff;
     width: 60%;
     margin: auto;
     color: rgb(255, 255, 255);
