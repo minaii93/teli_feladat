@@ -71,7 +71,7 @@ body{
 article {
     font-size: 10px;
     display: grid;
-    grid-template-columns: 1fr 1.5fr 1fr ;
+    grid-template-columns: 1fr 1.4fr 350px  ;
     
     align-items:start;
 }
@@ -79,17 +79,18 @@ article {
 .középső_oszlop {
     display: grid;
     grid-template-columns: 1fr 1fr ;
+    align-items: center
     
     ;
 }
 
   
-  div.rotate_right {
+  .rotate_right {
     float: left;
     transform: rotate(7deg);
   }
   
-  div.rotate_left {
+  .rotate_left {
     float: left;
     transform: rotate(-8deg);
   }
@@ -103,8 +104,12 @@ article img {
     margin-top: auto;
     grid-template-columns: 1fr 1fr;
     box-shadow: 10px 10px 5px #aaaaaa;
+    float: left;
+    transform: rotate(-8deg);
     
 }
+
+
 
 .szöveg_oszlop{
     text-align:justify;
