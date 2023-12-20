@@ -5,7 +5,7 @@
 
 main {
     width: 60%;
-    height: 800px;
+    height: 700px;
     margin: auto;
     background-color: rgb(255, 255, 255);
 }
@@ -95,7 +95,7 @@ article {
     transform: rotate(-8deg);
   }
 
-article img {
+article img  {
     width: 75%;
     height: 60%;
     display: flex;
@@ -114,7 +114,7 @@ article img {
 .szöveg_oszlop{
     text-align:justify;
     padding: 20px;
-
+    height: 560px;
     background-color: white;
     border: solid 1px gray;
     
